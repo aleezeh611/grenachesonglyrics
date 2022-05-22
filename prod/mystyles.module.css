@@ -1,47 +1,4 @@
-/*=============================================================================================
-                               START PAGE
-=============================================================================================*/
 
-.startpagelogo{
-    margin-left: 33%;
-    width: 500px;
-    height: 500px;
-    margin-top: 6%;
-}
-
-.startpagebg{
-    background-color: #5ccfe942;
-    height: 100%;
-    bottom: 0;
-    display: grid;
-}
-
-startshoppingbtn{
-    text-align: center;
-    margin-bottom: 7%;
-    margin-left: 0%;
-}
-
-startshoppingbtn a{
-    background-color: #21BCDE;
-    color: #e9e9e9;
-    border-radius: 30px;
-    font-family: Poppins;
-    padding:10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-startshoppingbtn a:hover{
-    background-color:rgb(85, 214, 85);
-    color: #e9e9e9;
-}
-
-/*=============================================================================================
-                               NAVIGATION BAR STYLING
-=============================================================================================*/
 navbar{   
     padding: 10px;
     text-align: center;
@@ -54,15 +11,6 @@ navbar{
     padding-bottom: 0ch;
 }
   
-logo{
-    float: left;
-}
-
-rowC{
-    display:flex; 
-    background-color: #ffffff;
-    margin-bottom: 5%;
-}
 
 navbar_item1 {
     float: right;
@@ -93,199 +41,19 @@ navbar_item1 a:hover{
 	transition: all 0.3s ease 0s;
 }
 
-navbar_item2 {
-    float: right;
-    font-family: Poppins;
-    font-family: poppins;
-    font-size: 15px;
-    padding-top: 10px;
-    vertical-align:text-bottom;
-}
-  
-navbar_item2 a {
-    background-color: rgb(253, 253, 253);
-    display: block;
-    color: rgb(146, 146, 146);
-    text-align: center;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-  
-navbar_item2 a:hover{
-    border-radius: 50px;
-    border-width: 1px;
-    background-color:#21BCDE;
-    color:rgb(253, 253, 253);
-    box-shadow: 3px 3px 5px #484848;
-	transform: translateY(-3px);
-	transition: all 0.3s ease 0s;
-}
-
-/*=============================================================================================
-//                          View Cart Page Styling
-//=============================================================================================*/
-.productoutterbox{
-    padding-left:4%;
-    padding-right: 4%;
-    overflow-x: auto;
-    width: 70%;
-    max-height: 515px;
-    margin-left: 10%;
-}
-
-.productbox{   
-    border-color: #dddddd;
-    border-style: solid;
-    border-width: 1px;
-    text-align: left;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/*SCROLL BAR-----------------------*/
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-  scrollbar-gutter: auto;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #ffffff;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 255);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(163, 163, 163);
-}
-
-.adbox{
-    background-color: #e9e9e9;
-    padding: 10px;
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    width: 30%;
-    text-align: left;
-    border-radius: 10px;
-    max-height: 530px;
-    overflow-x: auto;
-}
-
-.dealbox{
-  display: flex;
-  padding: 10px;
-}
-
-.billbox{
-    padding: 10px;
-    padding-left: 25px;
-    width:100%;
-    position: fixed;
-    bottom:0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fffdfd;
-    border-top-color: #eeeeee;
-}
-
-/* Style buttons */
-.btn {
-    border: none; /* Remove borders */
-    color: rgb(177, 176, 176); /* White text */
-    padding: 0px 20px; /* Some padding */
-    font-size: 30px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-    background-color: #ffffff;
-}
-  
-/* Darker background on mouse-over */
-.btn:hover {
-    color: #cc2323;
-}
-.checkoutbtn{
-    display: flex;
-    float:right;
-    background-color: #21BCDE;
-    color: #ffffff;
-    border:none;
-    border-radius: 20px;
-    padding:20px;
-    font-size: 20px;
-    margin-right: 5%;
-}
-.checkoutbtn:hover{
-    background-color: rgb(85, 214, 85);
-}
-/*=============================================================================================
-//                        Search Items Page
-//=============================================================================================*/
-.formbox{
+griditems{
     margin-top: 5%;
-    margin-left: 20%;
-    margin-bottom: 5%;
-    margin-right: 20%;
-}
-
-
-.searchform{
-    width: 85%;
-    padding:5px;
-    border-color: #cfcfcf;
-    border-style: solid;
-    border-radius: 10px;
-    font-size: 15px;
-    font-family: Poppins;
-}
-.searchform:hover{
-    background-color: #f0f0f0;
-}
-
-.searchbtn{
-    border-radius: 10px;
-    color:#fdfdfd;
-    padding:7px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color:#21BCDE;
-    border-style: none;
-    font-family: Poppins;
-    font-size: 15px;
-    float:right;
-}
-.searchbtn:hover{
-    background-color: #303435;
-}
-
-.gridoutterbox{
-    margin-left:10%;
-    display: flex;
-    flex-wrap: wrap;
-    width:90%;
-    margin-bottom: 5%;
-    
-}
-
-.griditems{
     border-style: solid;
     border-color: #e6e5e5;
     border-width: 1px;
+    border-radius: 10px;
     box-shadow: none;
     padding:10px;
-    margin-top:10px;
-    margin-bottom: 20px;
     margin-left: 17px;
     margin-right: 17px;
     display: grid;
 }
-.griditems:hover{
+griditems:hover{
     box-shadow: 1px 1px 10px 1px #969696;
 }
 
